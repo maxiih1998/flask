@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Denuncias - {% block titulo %} {% endblock %}</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('cargaarchivo') }}">Cargar</a></li>
+            </ul>
+        </nav>
+        {% block contenido %}
+    
+        {% endblock %}
+    </body>
+</html>
